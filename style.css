@@ -1,0 +1,132 @@
+body {
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Muli';
+}
+
+/*
+COLOURS
+black #000000
+*/
+
+#header {
+    background-color: #000000;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header-content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#header-logo {
+    float: left;
+    line-height: 90px;
+}
+
+#header-logo img {
+    height: 70px;
+    vertical-align: middle;
+}
+
+#navbar {
+    float: right;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+#navbar-icons {
+    margin-left: 50px;
+}
+
+.navbar-generic ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-generic ul li {
+    list-style-type: none;
+    float: left;
+    transition: 0.3s;
+    height: 90px;
+    line-height: 90px;
+}
+
+#navbar-menus ul li {
+    width: 110px;
+    border-bottom: 4px solid transparent;
+}
+
+#navbar-icons ul li {
+    width: 40px;
+    height: 90px;
+    line-height: 100px;
+}
+
+#navbar-menus ul li:hover {
+    /* background-color: #EEEEEE; */
+    border-bottom: 4px solid #ffffff;
+}
+
+.navbar-generic ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navbar-menus ul li a {
+    display: block;
+}
+
+#navbar-menus ul li:hover a {
+    /* color: #000000; */
+    font-weight: bold;
+}
+
+#navbar-menus ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #aaaaaa;
+    margin-top: 5px;
+}
+
+#navbar-menus ul li:hover ul {
+    display: block;
+}
+
+#navbar-menus ul li ul li {
+    width: 100%;
+    padding: 0;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: none;
+}
+
+#navbar-menus ul li ul li:hover {
+    background-color: #cdcdcd;
+    border-bottom: none;
+}
+
+#navbar-menus ul li ul li a {
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+}
+
+#content-container {
+    background-image: url("https://placehold.it/300x200");
+    background-size: cover;
+    padding: 0;
+    margin: -4px auto;
+}
+
+#content-text {
+    padding: 300px;
+}
