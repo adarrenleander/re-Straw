@@ -170,7 +170,7 @@ white #f0f5f9 #ffffff
 }
 
 .footer .footer-copyright {
-    padding: 10px 0 25px 0;
+    padding: 25px 0 25px 0;
 }
 
 .footer .footer-copyright p {
@@ -178,14 +178,3 @@ white #f0f5f9 #ffffff
     font-size: 14px;
 }
 /********** **********/
-
-.content-container {
-    background-image: url("https://placehold.it/300x200");
-    background-size: cover;
-    padding: 0;
-    margin-top: -4px;
-}
-
-.content-text {
-    padding: 300px;
-}
