@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="css/style-logreg.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <title>re:Straw | Login</title>
 </head>
@@ -43,33 +45,37 @@
         </div>
         <div class="content-container">
             <div class="content-text">
-                <h1>LOGIN</h1>
-                <div class="login-container">
-                    <div class="login-form">
-                        <form>
-                            <label>Email</label>
-                            <input type="text" placeholder="Email">
-                            <br>
-                            <label>Password</label>
-                            <input type="password" placeholder="Password">
-                            <br>
-                            <input type="submit" value="Login">
-                            <p><a href="forgot-password.html">Forgot password?</a></p>
-                        </form>
-                    </div>
-                    <div class="login-methods">
-                        <div class="btnGoogle">
-                            <img src="images/google-logo" alt="Google Logo">
-                            <p>Google</p>
+                <h1>Log In</h1>
+                <div class="content-base">
+                    <div class="login-container">
+                        <div class="login-form">
+                            <form action="index.html" method="get">
+                                <input type="text" placeholder="email">
+                                <br>
+                                <input type="password" placeholder="password">
+                                <br>
+                                <input type="submit" value="Log In">
+                                <p><a href="forgot-password.html">Forgot your password?</a></p>
+                            </form>
                         </div>
-                        <div class="btnFacebook">
-                            <img src="images/facebook-logo" alt="Facebook Logo">
-                            <p>Facebook</p>
+                        <div class="login-methods">
+                            <button class="btnGoogle">
+                                <p><i class="fab fa-google"></i>Log in with Google</p>
+                            </button>
+                            <br>
+                            <button class="btnFacebook">
+                                <p><i class="fab fa-facebook-f"></i>Log in with Facebook</p>
+                            </button>
+                            <br>
+                            <button class="btnTwitter">
+                                <p><i class="fab fa-twitter"></i>Log in with Twitter</p>
+                            </button>
+                            <br>
                         </div>
                     </div>
-                </div>
-                <div class="register-container">
-                    <p>Don't have an account? <a href="register.html">Register here</a></p>
+                    <div class="register-container">
+                        <p>Don't have an account? <a href="register.html">Register here</a></p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,0 +1,328 @@
+/********** LOGIN PAGE **********/
+#login .content-text {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 80px 0;
+}
+
+#login .content-text h1 {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 45px;
+}
+
+#login .content-base {
+    border: 2px solid #bbbbbb;
+    padding: 50px 0 30px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#login .login-container {
+    display: flex;
+    padding: 30px 0 50px 0;
+}
+
+#login .login-form, #login .login-methods {
+    flex: 50%;
+}
+
+#login .login-form {
+    border-right: 2px solid #1e2022;
+}
+
+#login form {
+    width: 75%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#login form input[type=text], #login form input[type=password] {
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #000000;
+    width: 95%;
+    letter-spacing: 1px;
+}
+
+#login form input[type=text]::placeholder, #login form input[type=password]::placeholder {
+    color: #000000;
+    opacity: 0.5;
+}
+
+#login form input[type=submit] {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+#login form input[type=submit]:hover {
+    transition: 0.4s;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#login form p {
+    display: inline-block;
+    margin: 0;
+    margin-left: 42px;
+}
+
+#login .login-form a {
+    color: #000000;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+
+#login .login-form a:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+#login .login-methods button {
+    width: 55%;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+#login .login-methods button i {
+    margin: 0 30px 0 25px;
+    width: 8px;
+    font-size: 20px;
+}
+
+#login .login-methods button.btnGoogle {
+    background-color: #dd4b39;
+    color: #ffffff;
+    border: 2px solid #dd4b39;
+    transition: 0.4s;
+}
+
+
+#login .login-methods button.btnGoogle:hover {
+    background-color: #ffffff;
+    color: #dd4b39;
+    
+    transition: 0.4s;
+}
+
+#login .login-methods button.btnFacebook {
+    background-color: #3b5998;
+    color: #ffffff;
+    border: 2px solid #3b5998;
+    transition: 0.4s;
+}
+
+#login .login-methods button.btnFacebook:hover {
+    background-color: #ffffff;
+    color: #3b5998;
+    transition: 0.4s;
+}
+
+#login .login-methods button.btnTwitter {
+    background-color: #1da1f2;
+    color: #ffffff;
+    border: 2px solid #1da1f2;
+    transition: 0.4s;
+}
+
+#login .login-methods button.btnTwitter:hover {
+    background-color: #ffffff;
+    color: #1da1f2;
+    transition: 0.4s;
+}
+
+#login .register-container a {
+    color: #000000;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+
+#login .register-container a:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+/**********  **********/
+
+/********** REGISTER PAGE **********/
+#register .content-text {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 80px 0;
+}
+
+#register .content-text h1 {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 45px;
+}
+
+#register .content-base {
+    border: 2px solid #bbbbbb;
+    padding: 70px 0;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#register form {
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+}
+
+#register form label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#register form input[type=text], #register form input[type=password] {
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 24px;
+    background-color: #eeeeee;
+    color: #000000;
+    width: 95%;
+    letter-spacing: 1px;
+}
+
+#register form input[type=submit] {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+#register form input[type=submit]:hover {
+    transition: 0.4s;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#register form p {
+    display: inline-block;
+    margin: 0;
+    margin-left: 86px;
+}
+
+#register .register-container a {
+    color: #000000;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+
+#register .register-container a:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+/**********  **********/
+
+/********** FORGOT PASSWORD PAGE **********/
+#forgot-password .content-text {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 80px 0;
+}
+
+#forgot-password .content-text h1 {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 45px;
+}
+
+#forgot-password .content-base {
+    border: 2px solid #bbbbbb;
+    padding: 50px 0 30px 0;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#forgot-password .forgot-password-container {
+    padding: 30px 0 42px 0;
+    width: 75%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#forgot-password form input[type=text] {
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #000000;
+    width: 50%;
+    letter-spacing: 1px;
+}
+
+#forgot-password form input[type=text]::placeholder {
+    color: #000000;
+    opacity: 0.5;
+}
+
+#forgot-password form input[type=submit] {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+#forgot-password form input[type=submit]:hover {
+    transition: 0.4s;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#forgot-password form p {
+    display: inline-block;
+    margin: 0;
+    margin-left: 20px;
+}
+
+#forgot-password form a {
+    color: #000000;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+
+#forgot-password form a:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+
+#forgot-password .register-container a {
+    color: #000000;
+    opacity: 0.3;
+    transition: 0.4s;
+}
+
+#forgot-password .register-container a:hover {
+    opacity: 1;
+    transition: 0.4s;
+}
+/**********  **********/

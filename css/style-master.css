@@ -4,12 +4,15 @@ body {
     font-family: 'Muli';
 }
 
+input, button {
+    outline: none;
+}
+
 /*
 COLOURS
 black #000000
-lighter black #1e2022
-grey #52616b #c9d6df
-white #f0f5f9 #ffffff
+grey(d to l) #1e2022 #52616b #657786 #c9d6df #3aab8c2 #e1e8ed #eeeeee
+white #f0f5f9 #f5f8fa #ffffff
 */
 
 /********** GENERAL COMPONENTS **********/
