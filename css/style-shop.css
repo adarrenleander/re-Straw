@@ -1,0 +1,40 @@
+#information h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#information img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+#information p {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto 40px;
+}
+
+#boxes{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#boxes #container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#boxes .box{
+	float: left;
+	width: 30%;
+    padding: 10%;
+    text-align: center;
+}
+
+#boxes .box img{
+	width: 20%;
+}
