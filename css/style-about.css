@@ -38,42 +38,44 @@
 
 #about-products .content-text 
 {
- 
- 	font-family: calibri;
  	width:100%;
 	margin: 0 auto;
-	padding: 60px 0 80px 40px;
+    text-align: center;
+    padding: 60px 0 80px 0;
 }
 
 #about-products .content-text h1
 {
-	font-weight :normal;
+    margin: 0;
     margin-bottom: 45px;
-    font-size: 40px;
+    font-size: 45px;
     margin-left: 20px;
+}
+
+#about-products .content-text img {
+    width: 65%;
 }
 
 #about-products .content-text h3
 {
 	border-left: 3px solid #52616b;
-	padding-left :15px;
+	padding-left :2%;
 	font-weight :normal;
-	text-align: justify;
-	font-size:16px;
-	margin-right:40%;
-    margin-bottom: 25px; 
+    text-align: justify;
+    font-size: 18px;
+    line-height: 25px;
+    width: 63%;
+    margin: 0 auto;
+    margin-top: 35px;
 }
 #about-products .content-email
 {	
 	text-align: center; 
-	display:inline-block;
-	border: 2px solid #bbbbbb	;
-	width:50%;
-	margin-left:25%;
-	margin-right:25%;
+	border: 2px solid #bbbbbb;
+    width:50%;
+    margin: 0 auto;
 	padding-bottom:30px;
 	margin-bottom: 80px;
-	margin-top : 150px;
 }
 #about-products .content-email h2
 {
@@ -88,10 +90,11 @@
 {
 	font-weight :normal;
     color:#c9d6de;
-    font-size: 15px;
+    font-size: 16px;
     letter-spacing:2px;
-    margin-left:25%;
-    margin-right:25%;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
     
 }
 #about-products .content-email input[type=text]{
@@ -101,7 +104,7 @@
     margin-bottom: 15px;
     background-color: #eeeeee;
     color: #000000;
-    width:30%;
+    width:40%;
     letter-spacing: 1px;
 }
 
