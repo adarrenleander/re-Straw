@@ -12,7 +12,7 @@
     <title>re:Straw | Payment Confirmation</title>
 </head>
 <body>
-    <div id="payment-confirmation">
+    <div id="pay-conf">
         <div class="header">
             <div class="header-content">
                 <div class="header-logo">
@@ -43,7 +43,53 @@
         </div>
         <div class="content-container">
             <div class="content-text">
-                <h1>PAYMENT CONFIRMATION</h1>
+                <h1>Payment Confirmation</h1>
+                <div class="content-base">
+                    <div class="register-container">
+                        <form action="index.html" method="get">
+                            <label>full name</label>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <label>email</label>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <label>order number</label>
+                            <br>
+                            <input type="number">
+                            <br>
+                            <label>account holder name</label>
+                            <br>
+                            <input type="text">
+                            <br>
+                            <label>payment method</label>
+                            <br>
+                            <select>
+                                <option selected>--</option>
+                                <option>Go-Pay</option>
+                                <option>OVO</option>
+                                <option>BCA Transfer</option>
+                                <option>Mandiri Transfer</option>
+                                <option>BCA Virtual Account</option>
+                            </select>
+                            <br>
+                            <label>payment date</label>
+                            <br>
+                            <input type="datetime-local">
+                            <br>
+                            <label>payment amount</label>
+                            <br>
+                            <input type="number">
+                            <br>
+                            <label>upload transfer receipt</label>
+                            <br>
+                            <input type="file">
+                            <br>
+                            <input type="submit" value="Confirm">
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="footer">

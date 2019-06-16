@@ -21,10 +21,12 @@
 }
 
 #ship-info .content-text .ship-desc {
-    width: 65%;
+    width: 63%;
     margin: 0 auto;
     text-align: left;
-    margin-top: 35px;   
+    margin-top: 35px;
+    border-left: 2px solid #000000;
+    padding-left: 2%;
 }
 
 #ship-info .content-text p {
@@ -100,5 +102,86 @@
     opacity: 0.3;
     transition: 0.4s;
     font-weight: bold;
+}
+/**********  **********/
+
+/********** PAYMENT CONFIRMATION PAGE **********/
+#pay-conf .content-text {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 80px 0;
+}
+
+#pay-conf .content-text h1 {
+    margin: 0;
+    margin-bottom: 45px;
+    font-size: 45px;
+}
+
+#pay-conf .content-base {
+    border: 2px solid #bbbbbb;
+    padding: 70px 0;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#pay-conf form {
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+}
+
+#pay-conf form label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+#pay-conf form input[type=text], #pay-conf form input[type=password], 
+#pay-conf form input[type=number], #pay-conf form input[type=datetime-local],
+#pay-conf form input[type=file] {
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 24px;
+    background-color: #eeeeee;
+    color: #000000;
+    width: 95%;
+    letter-spacing: 1px;
+}
+
+#pay-conf form select {
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 24px;
+    background-color: #eeeeee;
+    color: #000000;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+#pay-conf form option {
+    background-color: #f5f8fa;
+}
+
+#pay-conf form input[type=submit] {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+#pay-conf form input[type=submit]:hover {
+    transition: 0.4s;
+    background-color: #000000;
+    color: #ffffff;
 }
 /**********  **********/

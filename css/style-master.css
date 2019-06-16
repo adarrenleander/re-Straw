@@ -1,17 +1,17 @@
-body {
+body, option {
     height: 100%;
     margin: 0 auto;
     font-family: 'Muli';
 }
 
-input, button {
+input, button, select {
     outline: none;
 }
 
 /*
 COLOURS
 black #000000
-grey(d to l) #1e2022 #52616b #657786 #c9d6df #3aab8c2 #e1e8ed #eeeeee
+grey(d to l) #1e2022 #52616b #657786 #c9d6df #aab8c2 #e1e8ed #eeeeee
 white #f0f5f9 #f5f8fa #ffffff
 */
 
