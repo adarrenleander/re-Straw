@@ -23,7 +23,7 @@
 #ship-info .content-text .ship-desc {
     width: 63%;
     margin: 0 auto;
-    text-align: left;
+    text-align: justify;
     margin-top: 35px;
     border-left: 3px solid #52616b;
     padding-left: 2%;
@@ -59,10 +59,10 @@
     width: 65%;
 }
 
-#faq .content-text .ship-desc {
+#faq .content-text .faq-desc {
     width: 65%;
     margin: 0 auto;
-    text-align: left;
+    text-align: justify;
     margin-top: 35px;   
 }
 
