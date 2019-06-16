@@ -1,0 +1,127 @@
+
+#about-company .content-text 
+{
+ 
+ 	font-family: calibri;
+ 	width:100%;
+	margin: 0 auto;
+	padding: 60px 0 80px 40px;
+}
+
+#about-company .content-text h1
+{
+	font-weight :normal;
+    margin-bottom: 45px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+#about-company .content-text h2
+{
+	
+	font-style:italic;
+	font-size:20px;
+	margin-left:30px;
+    margin-bottom: 25px; 
+}
+
+#about-company .content-text h3
+{
+	border-left: 3px solid #52616b;
+	padding-left :15px;
+	font-weight :normal;
+	text-align: justify;
+	font-size:16px;
+	margin-right:40%;
+    margin-bottom: 25px; 
+}
+
+#about-products .content-text 
+{
+ 
+ 	font-family: calibri;
+ 	width:100%;
+	margin: 0 auto;
+	padding: 60px 0 80px 40px;
+}
+
+#about-products .content-text h1
+{
+	font-weight :normal;
+    margin-bottom: 45px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+#about-products .content-text h3
+{
+	border-left: 3px solid #52616b;
+	padding-left :15px;
+	font-weight :normal;
+	text-align: justify;
+	font-size:16px;
+	margin-right:40%;
+    margin-bottom: 25px; 
+}
+#about-products .content-email
+{	
+	text-align: center; 
+	display:inline-block;
+	border: 2px solid #bbbbbb	;
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	padding-bottom:30px;
+	margin-bottom: 80px;
+	margin-top : 150px;
+}
+#about-products .content-email h2
+{
+	
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    font-size: 25px;
+    
+}
+
+#about-products .content-email h3
+{
+	font-weight :normal;
+    color:#c9d6de;
+    font-size: 15px;
+    letter-spacing:2px;
+    margin-left:25%;
+    margin-right:25%;
+    
+}
+#about-products .content-email input[type=text]{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+    color: #000000;
+    width:30%;
+    letter-spacing: 1px;
+}
+
+#about-products .content-email input[type=text]::placeholder{
+    color: #000000;
+    opacity: 0.5;
+}
+#about-products .content-email input[type=submit] {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+#about-products .content-email input[type=submit]:hover {
+    transition: 0.4s;
+    background-color: #000000;
+    color: #ffffff;
+}
+

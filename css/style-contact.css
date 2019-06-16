@@ -1,0 +1,90 @@
+#contact .content-text 
+{
+ 
+ 	font-family: calibri;
+ 	width:100%;
+	margin: 0 auto;
+	padding: 60px 0 80px 40px;
+}
+
+#contact .content-text h1
+{
+	font-weight :normal;
+    margin-bottom: 45px;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+#contact .content-text h2
+{
+	
+	font-size:22px;
+	margin-left:30px;
+    margin-bottom: 25px; 
+}
+
+
+#contact .content-text i {
+    margin: 5px 30px 0 40px;
+    width: 10px;
+    color:#aa9999;
+    font-size: 20px;
+}
+#contact .content-text p{
+	font-size:20px;
+
+}
+#contact .content-email
+{	
+	text-align: center; 
+	display:inline-block;
+	border: 2px solid #bbbbbb	;
+	margin-left:10%;
+	margin-right:10%;
+	width:80%;
+	
+	padding-bottom:30px;
+	margin-bottom: 80px;
+	margin-top : 150px;
+}
+#contact .content-email h2
+{
+	margin-bottom: 25px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    
+}
+
+#contact .content-email input[type=text]
+{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    color: #000000;
+    width:70%;
+    letter-spacing: 1px;
+}
+
+
+
+#contact .content-email input[type=text]::placeholder{
+    color: #000000;
+    opacity: 0.5;
+}
+#contact .content-email input[type=submit] {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: 0.4s;
+    font-weight: bold;
+}
+#contact .content-email input[type=submit]:hover {
+    transition: 0.4s;
+    background-color: #000000;
+    color: #ffffff;
+}
