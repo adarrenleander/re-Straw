@@ -95,7 +95,7 @@
 }
 
 #faq .content-text .faq-container .answer-container a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #000000;
     opacity: 0.3;
     transition: 0.4s;
