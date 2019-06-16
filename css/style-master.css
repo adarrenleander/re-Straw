@@ -15,7 +15,7 @@ grey(d to l) #1e2022 #52616b #657786 #c9d6df #aab8c2 #e1e8ed #eeeeee
 white #f0f5f9 #f5f8fa #ffffff
 */
 
-/********** GENERAL COMPONENTS **********/
+/********** GENERAL HEADER **********/
 .header {
     background-color: #000000;
     display: inline-block;
@@ -87,10 +87,6 @@ white #f0f5f9 #f5f8fa #ffffff
     letter-spacing: 2px;
 }
 
-.header .navbar-menus ul li:hover a {
-    font-weight: bold;
-}
-
 .header .navbar-menus ul li ul {
     display: none;
     position: absolute;
@@ -135,6 +131,114 @@ white #f0f5f9 #f5f8fa #ffffff
     vertical-align: middle;
 }
 
+.header .icon {
+    display: none;
+    width: 7vw;
+    float: left;
+    height: 90px;
+    line-height: 90px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.header .navbar-resp {
+    display: none;
+    background-color: #1e2022;
+    width: 100%;
+}
+
+.header .navbar-resp ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header .navbar-resp ul li {
+    list-style-type: none;
+    transition: 0.3s;
+    height: 90px;
+    line-height: 90px;
+}
+
+.header .navbar-resp ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header .navbar-resp ul li:hover {
+    background-color: #000000;
+}
+
+.header .navbar-resp ul li.active {
+    background-color: #000000;
+}
+
+.header .navbar-resp ul li a {
+    display: block;
+    letter-spacing: 2px;
+}
+
+.header .navbar-resp ul .submenu {
+    display: none;
+    background-color: #aaaaaa;
+}
+
+.header .navbar-resp ul .submenu li:hover {
+    background-color: #cdcdcd;
+}
+
+.header .navbar-resp ul .submenu li a {
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 620px) {
+    .clear { 
+        clear: both;
+    }
+
+    .header .header-content {
+        width: 100%;
+    }
+
+    .header .header-logo {
+        float: none;
+        text-align: center;
+        display: inline;
+    }
+
+    .header .header-logo img {
+        height: auto;
+        width: 40vw;
+    }
+
+    .header .navbar-menus {
+        display: none;
+    }
+
+    .header .navbar-icons ul {
+        margin-left: 3vw;
+    }
+
+    .header .navbar-icons ul li {
+        margin: 0 2vw;
+    }
+
+    .header .icon {
+        display: block;
+    }
+
+    .header .navbar-resp.responsive {
+        display: block;
+    }
+}
+/**********  **********/
+
+/********** GENERAL FOOTER **********/
 .footer {
     background-color: #1e2022;
     margin: 0;
@@ -179,5 +283,25 @@ white #f0f5f9 #f5f8fa #ffffff
 .footer .footer-copyright p {
     color: #ffffff;
     font-size: 14px;
+}
+
+@media only screen and (max-width: 620px) {
+    .footer .footer-info {
+        padding-top: 20px;
+    }
+
+    .footer .footer-info a {
+        display: block;
+        margin: 15px 0;
+        font-size: 14px;
+    }
+
+    .footer .footer-copyright {
+        padding: 10px 0;
+    }
+
+    .footer .footer-copyright p {
+        font-size: 12px;
+    }
 }
 /********** **********/

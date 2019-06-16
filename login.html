@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style-master.css">
     <link rel="stylesheet" type="text/css" href="css/style-logreg.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" 
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"> 
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <title>re:Straw | Login</title>
 </head>
@@ -17,6 +15,7 @@
     <div id="login">
         <div class="header">
             <div class="header-content">
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fas fa-bars"></i>
                 <div class="header-logo">
                    <a href="index.html"><img src="https://placehold.it/300x100" alt="re:Straw Logo"></a>
                 </div>
@@ -41,6 +40,17 @@
                         </ul>
                     </div>
                 </div>
+                <div class="navbar-resp" id="myTopnav">
+                        <ul>
+                            <li><a href="shop.html">SHOP</a></li>
+                            <li id="dropdown-btn"><a href="#">ABOUT</a></li>
+                            <ul class="submenu">
+                                <li><a href="about-company.html">OUR COMPANY</a></li>
+                                <li><a href="about-products.html">OUR PRODUCTS</a></li>
+                            </ul>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </div>
             </div>
         </div>
         <div class="content-container">
@@ -91,4 +101,5 @@
         </div>
     </div>
 </body>
+<script src="javascript/master-script.js"></script>
 </html>
