@@ -9,5 +9,5 @@ function slideshow() {
   index++;
   if (index > length) {index = 1} 
   image[index-1].style.display = "block"; 
-  setTimeout(slideshow, 2000);
+  setTimeout(slideshow, 3000);
 }
