@@ -116,9 +116,54 @@
     min-height: 200px;
 }
 
-
-
 #contact .content-email textarea::placeholder{
     color: #000000;
     opacity: 0.5;
+}
+
+@media only screen and (max-wdith: 800px) {
+    #contact .content-text {
+        width: 85%;
+    }
+
+    #contact .content-text h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #contact .content-text h2
+    {
+        font-size: 18px;
+    }
+
+    #contact .content-text i {
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
+    #contact .content-text p{
+        font-size: 18px;
+    }
+
+    #contact .content-email
+    {	
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #contact .content-email input[type=text]
+    {
+        width: 80%;
+    }
+
+    #contact .content-email input[type=submit] {
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 12px 28px;
+    }
+
+    #contact .content-email textarea
+    {
+        width: 80%;
+    }
 }

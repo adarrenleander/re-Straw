@@ -39,6 +39,34 @@
     padding-left: 2%;
 }
 
+@media only screen and (max-width: 800px) {
+    #about-company .content-text {
+        width: 85%;
+    }
+
+    #about-company .content-text img {
+        width: 85%;
+    }
+
+    #about-company .content-text h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #about-company .content-text h2
+    {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    #about-company .content-text h3 {
+        width: 85%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
+
 #about-products .content-text 
 {
  	width:100%;
@@ -130,3 +158,50 @@
     color: #ffffff;
 }
 
+@media only screen and (max-width: 800px) {
+    #about-products .content-text  {
+        width: 85%;
+    }
+
+    #about-products .content-text img {
+        width: 85%;
+    }
+
+    #about-products .content-text h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #about-products .content-text  h3 {
+        width: 85%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    #about-products .content-email
+    {
+        width: 85%;
+        padding-top: 20px;
+    }
+
+    #about-products .content-email h2
+    {
+        font-size: 20px;
+    }
+
+    #about-products .content-email h3
+    {
+        font-size: 16px;
+        width: 85%;
+    }
+
+    #about-products .content-email input[type=text]{
+        width: 80%;
+    }
+
+    #about-products .content-email input[type=submit] {
+        margin-top: 10px;
+        font-size: 18px;
+        padding: 12px 28px;
+    }
+}

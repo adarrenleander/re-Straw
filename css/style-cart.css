@@ -101,3 +101,28 @@ button.plus-button{
     font-size: 18px;
 }
 
+@media only screen and (max-width: 800px) {
+    .cart {
+        width: 95%;
+        padding: 60px 0 40px 0;
+    }
+    
+    #cart h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    .item-container {
+        display: block;
+        width: 70%;
+        padding: 60px 0;
+    }
+
+    .description{
+        padding: 30px 0;
+    }
+
+    .total {
+        padding-top: 15px;
+    }
+}

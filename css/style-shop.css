@@ -51,7 +51,7 @@
 
 #boxes .box {
     flex: 25%;
-    margin: 0 50px 0 50px;
+    margin: 0 50px;
     text-align: center;
 }
 
@@ -84,4 +84,49 @@
     transition: 0.4s;
     background-color: #ffffff;
     color: #000000;
+}
+
+@media only screen and (max-width: 800px) {
+    #information {
+        width: 85%;
+    }
+
+    #information img {
+        width: 85%;
+    }
+
+    #information h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #information p {
+        width: 70%;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+
+    #boxes #container {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #boxes #container-last {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #boxes .first .box {
+        margin-bottom: 40px;
+    }
+
+    #boxes .second .box {
+        margin-bottom: 60px;
+    }
+
+    #boxes #container-last .box {
+        margin-top: 65px;
+    }
 }

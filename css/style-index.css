@@ -53,7 +53,6 @@
 }
 
 #index .btnShop {
-    margin-top: 10px;
     font-size: 20px;
     padding: 14px 30px;
     background-color: #000000;
@@ -68,4 +67,20 @@
     transition: 0.4s;
     background-color: #ffffff;
     color: #000000;
+}
+
+@media only screen and (max-width: 800px) {
+    #index .slider-text {
+        padding: 36vh 0;
+    }
+
+    #index .slider-text h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+
+    #index .btnShop {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
 }

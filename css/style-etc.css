@@ -35,6 +35,30 @@
     font-size: 18px;
     line-height: 25px;
 }
+
+@media only screen and (max-width: 800px) {
+    #ship-info .content-text {
+        width: 85%;
+    }
+
+    #ship-info .content-text img {
+        width: 85%;
+    }
+
+    #ship-info .content-text h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #ship-info .content-text .ship-desc {
+        width: 85%;
+    }
+
+    #ship-info .content-text p {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
 /**********  **********/
 
 /********** FAQ PAGE **********/
@@ -102,6 +126,34 @@
     opacity: 0.3;
     transition: 0.4s;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+    #faq .content-text {
+        width: 85%;
+    }
+
+    #faq .content-text img {
+        width: 85%;
+    }
+
+    #faq .content-text h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    #faq .content-text .faq-desc {
+        width: 85%;
+    }
+
+    #faq .content-text .faq-container p {
+        font-size: 16px;
+    }
+
+    #faq .content-text .faq-container p.question {
+        width: 100%;
+        font-size: 20px;
+    }
 }
 /**********  **********/
 
@@ -183,5 +235,36 @@
     transition: 0.4s;
     background-color: #000000;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+    #pay-conf .content-text {
+        width: 95%;
+    }
+    
+    #pay-conf .content-text h1 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    #pay-conf .content-base {
+        padding: 20px 0;
+        width: 90%;
+    }
+
+    #pay-conf form {
+        width: 85%;
+    }
+
+    #pay-conf form input[type=submit] {
+        font-size: 15px;
+        padding: 10px 20px;
+    }
+
+    #pay-conf form p {
+        display: block;
+        margin-left: 0;
+        margin-top: 20px;
+    }
 }
 /**********  **********/
