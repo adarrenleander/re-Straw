@@ -2,7 +2,7 @@
 {
  	width:100%;
 	margin: 0 auto;
-    padding: 60px 0 80px 0;
+    padding: 60px 0 50px 0;
     text-align: center;
 }
 
@@ -14,8 +14,7 @@
 }
 
 #contact .contact-container {
-    text-align: left;
-    width: 22%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -29,22 +28,35 @@
 
 
 #contact .content-text i {
-    margin: 5px 30px 0 40px;
-    width: 10px;
-    color:#aa9999;
+    margin-right: 25px;
+    color: #aa9999;
     font-size: 25px;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 #contact .content-text p{
-	font-size:20px;
+    font-size:20px;
 
 }
+
+#contact .content-text p.whatsapp:hover i {
+    color: #128c7e;
+}
+
+#contact .content-text p.line:hover i {
+    color: #00c300;
+}
+
+#contact .content-text p.email:hover i {
+    color: #34b7f1;
+}
+
 #contact .content-email
 {	
 	text-align: center;
 	border: 2px solid #bbbbbb;
 	width:80%;
-	margin: 0 auto;
+    margin: 0 auto;
+    padding-top: 30px;
 	padding-bottom:30px;
 	margin-bottom: 80px;
 }
@@ -88,4 +100,25 @@
     transition: 0.4s;
     background-color: #000000;
     color: #ffffff;
+}
+
+#contact .content-email textarea
+{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #eeeeee;
+    color: #000000;
+    width:70%;
+    letter-spacing: 1px;
+    resize: vertical;
+    min-height: 200px;
+}
+
+
+
+#contact .content-email textarea::placeholder{
+    color: #000000;
+    opacity: 0.5;
 }

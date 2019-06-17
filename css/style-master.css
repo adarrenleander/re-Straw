@@ -1,10 +1,10 @@
-body, option {
+body, option, input, textarea {
     height: 100%;
     margin: 0 auto;
     font-family: 'Muli';
 }
 
-input, button, select {
+input, button, select, textarea {
     outline: none;
 }
 
