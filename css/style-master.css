@@ -1,6 +1,9 @@
-body, option, input, textarea {
+body {
     height: 100%;
     margin: 0 auto;
+}
+
+body, option, input, button, select, textarea {
     font-family: 'Muli';
 }
 
